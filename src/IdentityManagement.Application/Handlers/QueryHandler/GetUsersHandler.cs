@@ -10,7 +10,7 @@ using IdentityManagement.Application.Queries;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace IdentityManagement.Application.Handlers
+namespace IdentityManagement.Application.Handlers.QueryHandler
 {
     public class GetUsersHandler : IRequestHandler<GetUsersQuery, Result<List<UserDto>>>
     {
